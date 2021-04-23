@@ -1,0 +1,145 @@
+*{margin: 0;padding: 0;}
+.size{width:1000px;margin: 0 auto;}
+body{font-family: verdana;
+background: #e6e6e6;
+}
+p{font-size:16px;
+color: #545454;
+}
+h4{margin: 10px 0px;
+
+    color: #545454;
+    
+}
+h3{background: blue;margin-top: 25px;
+background: #a3a3ffbd;
+    padding: 7px 5px;
+    color: #545454;
+    font-family: 'Zen Dots', cursive;
+}
+.cv-body{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.cv-body .cv-wrap{
+   background: #e8e8e8;
+    padding: 50px 70px;
+    box-shadow: 0px 5px 14px #00000036;
+}
+.cv-body .cv-wrap .cv-header{
+    
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.cv-body .cv-wrap .cv-header .text-box{
+    width: 100%;
+}
+.cv-body .cv-wrap .cv-header .img-box{
+   width: 100%;
+    text-align: right;
+}
+.cv-body .cv-wrap .cv-header .img-box img{
+    width: 40%;
+}
+
+
+
+.cv-body .cv-wrap .cv-header h1{
+    color: #a3a3ffbd;
+    font-size: 33px;
+    font-family: 'Zen Dots', cursive;
+}
+.cv-body .cv-wrap .cv-header p{
+    font-size: 26px;
+    font-weight: bold;
+    color: #908b8b;
+    font-family: 'Zen Dots', cursive;
+}
+.cv-body .cv-wrap .cv-header p:last-child{}
+.cv-body .cv-wrap .cv-header h3{
+    text-align: left !important;
+}
+.cv-body .cv-wrap .cv-adress{}
+.cv-body .cv-wrap .cv-adress{
+    display: flex;
+}
+.cv-body .cv-wrap .cv-adress .adress-heading{}
+.cv-body .cv-wrap .cv-adress .adress-heading p{
+    margin-top: 10px;
+}
+.cv-body .cv-wrap .cv-adress .adress-des{
+    margin-left: 70px;
+}
+.cv-body .cv-wrap .cv-adress .adress-des p{
+   margin-top: 10px;
+}
+
+.skiled-wrap{display: flex;}
+.skiled-wrap .text-box{display: flex;
+width: 100%;
+}
+.skiled-wrap .text-box .icon{
+    display: flex;
+    margin: 10px 0px;
+}
+.skiled-wrap .text-box .text{}
+.skiled-wrap .text-box .text .icon strong i{
+    
+    color: #a3a3ff;
+    margin-right: 9px;
+}
+
+
+
+.skiled-wrap .text-box .text p{}
+.skiled-wrap .skill-box{
+    margin-left: 58px;
+    position: relative;
+    top: 13px;
+}
+.skiled-wrap .skill-box .box-1{
+    background: white;
+    height: 15px;
+    width: 500px;
+    position: relative;
+}
+.skiled-wrap .skill-box .box-2{
+    background: #a3a3ffbd;
+    width: 400px;
+    height: 15px;
+    position: relative;
+    top: -15px;
+}
+
+
+
+
+.cv-header::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border: 5px solid #0000ff08;
+    transform: skew(
+10deg
+, 
+0deg
+);
+    /* transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
